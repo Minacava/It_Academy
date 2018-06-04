@@ -44,10 +44,11 @@ body {
   /* Header styles only */
 
   .profile-img {
-    width: 300px;
-    border-radius: 50%;
+    width: 360px;
+    border-radius: 30%;
     float: right;
     margin-right: 30px;
+ 
   }
   
   /* Footer styles only */
