@@ -54,5 +54,21 @@ hr {
     border: #fff 1px solid;
 }
 .footer-copyright{
-    background: #f3b4a2 !important;
+    background: #f4c2b5 !important;
+}
+.dropdown-item{
+    font-size:0.8em;
+}
+.dropdown-menu{
+    background: #ea8b72;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+.dropdown-item{
+    color:white; 
+}
+.nav-link:hover{
+    color: red;
 }
