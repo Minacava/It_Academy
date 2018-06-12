@@ -6,6 +6,7 @@ body {
     font-family: 'Muli', sans-serif;
     font-family: 'Work Sans', sans-serif;
     font-size: 12px;
+    background: #e9ece5;
 }
 h1 {
     font-size: 1.5em;
@@ -22,20 +23,22 @@ hr {
 } 
 /* header */
 .navbar{
-    background: #f3b4a2 !important;
+    background: #3fb0ac !important;
+   
 }
 .content-div{
     position: relative;
 }
 .logo{
-    width: 10%;
+    width: 8%;
     height: auto;
     float: left;
     padding-right: 2%;
 }
 .content-nav{
     font-size: 1.5em;
-    left: 50%;
+    left: 60%;
+    
 }
 .navbar-toggler {
     float: right;
@@ -55,14 +58,15 @@ hr {
 .navbar-toggler:not(:disabled):not(.disabled) {
     border:none;
 }
-.footer-copyright{
-    background: #f4c2b5 !important;
+.nav-center{
+    display: inline;
 }
+
 .dropdown-item{
     font-size:0.8em;
 }
 .dropdown-menu{
-    background: #ea8b72;
+    background: #173e43;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     text-align: center;
     margin-left: 3%;
@@ -76,17 +80,31 @@ hr {
 }
 /* Promo Sliders */
 .call-to-action{
-    width: 50%;
+    width: 80%;
     height: 30%;
     margin:auto;
+    border-radius: 2%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
    
 }
 /* Footer */
-footer{
+.footer {
+    position: absolute;
+    right: 0;
     bottom: 0;
-    width: 100%;
+    left: 0;
+    padding: 1rem;
+    background-color: #6ed3cf;
+    text-align: center;
+  }
 
+.pre_footer {
+    background-color:#fae596;
+    bottom: 50px;
+    position: fixed;
+    width: 100%;
 }
+
 /* Responsive */
 @media (max-width: 768px) {
     .icons{
