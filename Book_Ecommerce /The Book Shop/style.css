@@ -2,10 +2,6 @@
 /* navbar background: #f3b4a2  */
 
 /* basics */
-html {
-    -webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust:     100%;
-}
 body {
     font-family: 'Muli', sans-serif;
     font-family: 'Work Sans', sans-serif;
@@ -17,9 +13,7 @@ h1 {
 h2 {
     font-size: 1.2em;
 } 
-.selector-for-some-widget {
-    box-sizing: content-box;
-}
+
 hr { 
     border: 1px solid #aec0bc; 
     border-radius: 200px /8px; 
@@ -34,7 +28,7 @@ hr {
     position: relative;
 }
 .logo{
-    width: 30%;
+    width: 10%;
     height: auto;
     float: left;
     padding-right: 2%;
@@ -52,6 +46,14 @@ hr {
 .icons{
     margin-left: auto;
     border: #fff 1px solid;
+
+}
+.icon-bar{
+    border-radius:0.3em;
+    margin-left: 0.5em;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+    border:none;
 }
 .footer-copyright{
     background: #f4c2b5 !important;
@@ -71,4 +73,41 @@ hr {
 }
 .nav-link:hover{
     color: red;
+}
+/* Promo Sliders */
+.call-to-action{
+    width: 50%;
+    height: 30%;
+    margin:auto;
+   
+}
+/* Footer */
+footer{
+    bottom: 0;
+    width: 100%;
+
+}
+/* Responsive */
+@media (max-width: 768px) {
+    .icons{
+        width:150px;
+    }
+    a{
+        font-size: 12px;
+    }
+}
+@media (max-width: 425px){
+    .logo{
+            width: 20%;
+    }
+     .icons{
+            width:150px;
+            margin-right: auto;
+    }
+}
+@media (max-width: 375px){
+    .icons{
+        width:130px;
+        margin-right: auto;
+    }
 }
