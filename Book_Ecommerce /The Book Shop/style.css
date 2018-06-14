@@ -81,23 +81,27 @@ hr {
 .nav-link:hover{
     color: red;
 }
-/* Promo Sliders */
+/* BestSell Section */
 .middle-box{
     width: 20%;
     height: 10%;
     background: #3fb0ac;  
+    color: white;
+    text-align: center;
 }
 .flex { 
     display: flex;
     flex-wrap: wrap;
   }  
-.best-sell-img{
-    width: 8rem;
-    height: 8rem;
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+.bestSell{
+    position: absolute; ;
+    bottom: 100px;
+    right:0;
+
 }
 /* Footer */
 .footer {
-    position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
