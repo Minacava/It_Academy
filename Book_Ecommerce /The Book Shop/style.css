@@ -1,12 +1,16 @@
 /* Palette */
 /* navbar background: #f3b4a2  */
-
 /* basics */
 body {
     font-family: 'Muli', sans-serif;
     font-family: 'Work Sans', sans-serif;
     font-size: 12px;
-    background: #e9ece5;
+    /* background: #e9ece5; */
+    background: url("img/call_to_action/flying-books.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
 }
 h1 {
     font-size: 1.5em;
@@ -14,7 +18,6 @@ h1 {
 h2 {
     font-size: 1.2em;
 } 
-
 hr { 
     border: 1px solid #aec0bc; 
     border-radius: 200px /8px; 
@@ -61,7 +64,6 @@ hr {
 .nav-center{
     display: inline;
 }
-
 .dropdown-item{
     font-size:0.8em;
 }
@@ -72,6 +74,7 @@ hr {
     margin-left: 3%;
     margin-top: 1%;
 }
+
 .dropdown-item{
     color:white; 
 }
@@ -79,13 +82,18 @@ hr {
     color: red;
 }
 /* Promo Sliders */
-.call-to-action{
-    width: 80%;
-    height: 30%;
-    margin:auto;
-    border-radius: 2%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   
+.middle-box{
+    width: 20%;
+    height: 10%;
+    background: #3fb0ac;  
+}
+.flex { 
+    display: flex;
+    flex-wrap: wrap;
+  }  
+.best-sell-img{
+    width: 8rem;
+    height: 8rem;
 }
 /* Footer */
 .footer {
@@ -96,6 +104,7 @@ hr {
     padding: 1rem;
     background-color: #6ed3cf;
     text-align: center;
+    position: fixed;
   }
 
 .pre_footer {
@@ -103,29 +112,7 @@ hr {
     bottom: 50px;
     position: fixed;
     width: 100%;
+    margin:0;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-    .icons{
-        width:150px;
-    }
-    a{
-        font-size: 12px;
-    }
-}
-@media (max-width: 425px){
-    .logo{
-            width: 20%;
-    }
-     .icons{
-            width:150px;
-            margin-right: auto;
-    }
-}
-@media (max-width: 375px){
-    .icons{
-        width:130px;
-        margin-right: auto;
-    }
-}
+

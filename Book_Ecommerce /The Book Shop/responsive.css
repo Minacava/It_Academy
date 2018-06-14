@@ -1,7 +1,27 @@
-
-@media (max-width: 812px) {
-
-icons{
-    width:10%;
+/* Responsive */
+@media (max-width: 768px){
+    .icons{
+        width:150px;
+    }
+    a{
+        font-size: 12px;
+    }
 }
+@media (max-width: 647px){
+   
+}
+@media (max-width: 425px){
+    .logo{
+            width: 20%;
+    }
+     .icons{
+            width:130px;
+            margin-right: auto;
+    }
+}
+@media (max-width: 375px){
+    .icons{
+        width:130px;
+        margin-right: auto;
+    }
 }
