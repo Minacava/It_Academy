@@ -1,0 +1,211 @@
+/* Palette */
+/* navbar background: #f3b4a2  */
+
+/* basics */
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 12px;
+    
+}
+.img-cover{
+    background: url("flying-books.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+h1 {
+    font-size: 1.5em;
+}
+h2 {
+    font-size: 1.2em;
+} 
+hr { 
+    border: 1px solid #aec0bc; 
+    border-radius: 200px /8px; 
+    height: 0px; 
+    text-align: center; 
+}
+a:link{
+    text-decoration:none;
+}
+/* header */
+.navbar{
+    background: #3fb0ac !important;
+    font-family: 'Karla', sans-serif;
+}
+.navbar2{
+    background: #FBD160 !important;
+
+}
+.content-div{
+    position: relative;
+}
+.logo{
+    width: 3%;
+    height: auto;
+    float: left;
+    padding-right: 2%;
+}
+.logo2{
+    width: 20%;
+    height: auto;
+    float: left;
+    padding-right: 2%;
+}
+.logo-img{
+    width: 100%;
+    background-color: white;
+    margin:1%;
+    height: auto;
+}
+.content-nav{
+    font-size: 1.5em;
+    left: 60%;
+    
+}
+.navbar-toggler {
+    float: right;
+}
+.nav-item {
+    margin-left: 3em;
+}
+.icons{
+    margin-left: auto;
+    border: #fff 1px solid;
+
+}
+.icon-bar{
+    border-radius:0.3em;
+    margin-left: 0.5em;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+    border:none;
+}
+.nav-center{
+    display: inline;
+}
+.dropdown-item{
+    font-size:0.8em;
+}
+.dropdown-menu{
+    background: #173e43;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+.dropdown-item{
+    color:white; 
+}
+.nav-link:hover{
+    color: red;
+}
+
+/* BestSell Section */
+.flex { 
+    display: flex;
+    flex-wrap: wrap;
+  }  
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.best-Sell{
+    margin-top:7%;
+    margin-bottom: 3%;
+    margin-right:0;
+    width: 40%;
+    height: auto;
+}
+.card-image-best-Sell {
+    width: 200px;
+    border-radius: 5%;
+    height: 50%;
+}
+/* About Us Box */
+.aboutUs-box{
+    width: 40%;
+    background-color: #FBD160;
+    color:white;
+    margin-top:5%;
+    margin-right: 1%;
+    padding: 2%;
+    justify-content: center;
+    font-size: 1.2em;
+    font-family: 'Karla', sans-serif;
+}
+/* BUY PAGE  ----------------------------------------*/
+/* Book container */
+.logo-buy-page{
+    width: 10%;
+    height: 10%;
+    float: left;
+    padding-right: 2%;
+}
+.book-list-container{
+    width: 60%;
+    height: auto; 
+    margin-top:2%;
+}
+.page-main-color{
+    background: #FAFAFA;
+    padding-bottom: 2%;
+    margin-top:2%;
+
+  
+}
+.card-image-collection{
+    border-radius: 3%;
+    margin-top:3%;
+}
+.book{
+    margin-top:10%;
+    width:10%;
+}
+.btn-light{
+    font-size: 9px;
+    margin-top: 0.4%;
+}
+.filter{
+    margin-top:3%;
+    font-size: 1.2em;
+    font-family: 'Karla', sans-serif;
+    color: #FBD160;
+}
+.filter-links{
+    list-style:none;
+}
+.filter-links li a{
+    color:black;
+}
+.filter-links li a:hover{
+    color:#1ea6b8;
+}
+/* PRODUCT PAGE  ----------------------------------------*/
+.product-container{
+    background: #FAFAFA;
+    margin-top:1%;
+    padding: 2%;
+
+}
+/* Footer */
+.footer {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #6ed3cf;
+    text-align: center;
+    position: fixed;
+  }
+
+.pre_footer {
+    background-color:#FBD160;
+    bottom: 50px;
+    position: fixed;
+    width: 100%;
+    margin:0;
+}
+.icon-Prefooter{
+    color:#3fb0ac;
+}
+
+

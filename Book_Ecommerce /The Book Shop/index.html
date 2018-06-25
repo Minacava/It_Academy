@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -9,22 +8,28 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
   <!-- CSS links -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
     crossorigin="anonymous">
+  <!-- Javascript links  -->
+   <script src="js/lib/jquery.js"></script>
   <!-- favicon -->
   <link rel="icon" type="image/png" href="img/thebs_logo.png" sizes="10x10" />
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,400,600i,700,900|Work+Sans:400,500,600,700,900" rel="stylesheet">
-  <title>THE BOOKSHOP</title>
+  <!--  FontCSS -->
+ <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat:200,300,300i,400,600,600i|Roboto:300i,400,500i" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
+ 
+ <title>THE BOOKSHOP</title>
 </head>
-<body>
+<body  class="img-cover">
   <!-- Start header  -->
   <!-- Navbar  -->
 <header>
-    <nav class="navbar navbar-expand-md  navbar-light bg-light navbar-light-color shadow-sm">
-        <img class="logo shadow-sm  bg-white rounded" src="img/thebs_logo.png" alt="">
+ <div class="d-sm-block">
+       <img class="logo  shadow-sm  bg-white rounded" src="img/thebs_logo.png" alt="">
+ </div>
+  <nav class="navbar  navbar-expand-md  navbar-light bg-light navbar-light-color shadow-sm">
       <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon icon-bar"></span>
@@ -32,6 +37,11 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <div class="content-div">
           <ul class="navbar-nav content-nav text-center">
+              <li class="nav-item active ml-5 ">
+                  <a class="nav-link text-white" href="index.html">Home
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
             <li class="nav-item ">
               <a class="nav-link dropdown-toggle  text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
@@ -52,16 +62,11 @@
               </div>
             </li>
                 <li class="nav-item active ml-5 ">
-                    <a class="nav-link text-white" href="#">To Buy
+                    <a class="nav-link text-white" href="buy.html">To Buy
                       <span class="sr-only">(current)</span>
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white " href="#">New Releases</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">About Us</a>
-                  </li>        
+                  <li><img class="logo2 shadow-sm  bg-white rounded" src="img/thebs_logo.png" alt=""></li>
           </ul>
           </div>    
   <!-- icons -->
@@ -83,59 +88,35 @@
   <!-- End header  -->
   <!-- Start main index content -->
   <main>
-    <!-- Start Best Sales  -->
-   
-    <div class=" py-5 bestSell d-none d-sm-block">
-      <div class="middle-box">
-          <span >Best Sell </span>
-      </div>
-    <hr>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-              <img class="card-img-top" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
-                </div>
-              </div>
+    <div class="container aboutUs-box box-shadow">
+        <div class="col-12">
+            <div class="row container-fluid text-center">
+              <em>
+                  Every aspect of The Book Shop is designed to help you discover new books and ideas, and encourage interdisciplinary thinking.
+                  At The Book Shop we curate our books to maximise serendipity.
+                  Our shelves are arranged according to broad themes like 'Wanderlust', ‘Enchantment for Disenchanted’ and ‘The City’, so you’re constantly encountering titles you might not have come across otherwise.
+              </em>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-              <img class="card-img-top" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-              <img class="card-img-top"alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>       
-        </div>
-      </div>
-    </div>
 
-  </main>
+    </div>
+    <!-- Start Best Sales  -->
+    <section>
+        <div class="container text-center best-Sell">
+          <div class="row ">
+            <div class="col">
+              <h1>Best Sell</h1>
+              <hr>
+            </div>
+          </div>
+          <div class="container ">
+              <div class="row" id="bSell_section">
+                
+              </div>
+              </div>
+        </div>
+    </section>
+  
   </main>
   
   <!-- End Top slider  -->
@@ -143,14 +124,14 @@
       <div class=" pre_footer text-center py-3">
           <strong class="ml-4 mr-2"> Follow Us: </strong>     
           <a href="">
-            <i class="fab fa-instagram mr-1"></i>
+            <i class="fab fa-instagram  icon-Prefooter mr-1"></i>
           </a>
           <a href="">
-            <i class="fab fa-facebook"></i>
+            <i class="fab fa-facebook icon-Prefooter "></i>
           </a>
           <strong class="ml-4 mr-2">  Contact: </strong> 
           <a href="">
-          <i class="far fa-envelope"></i> info@thebookshop.com
+          <i class="far fa-envelope icon-Prefooter"></i> info@thebookshop.com
         </a>
       </div>
 <!-- Social Media -->
@@ -167,13 +148,13 @@
   <!-- End Top slider  -->
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/main.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
-</body>
 </body>
 
 </html>

@@ -1,0 +1,67 @@
+/* Responsive */
+@media (min-width: 1440px){
+    .card-image-best-Sell {
+        height: 70%;
+    }
+}
+/* Tablet */
+@media (max-width: 767px){
+    .logo{
+        display: none;
+    }  
+    .logo-buy-page {
+        display: none;
+    }
+    .icons{
+        width:150px;
+    }
+    a{
+        font-size: 12px;
+    }
+    .aboutUs-box{
+        margin:5%;
+        width: 100%;
+    }
+    .best-Sell{
+        width: 100%;
+        height: auto;
+    }
+    body{
+        background: #F8F9FA;
+    }
+}
+@media (min-width: 767px){
+    .logo2{
+        display:none;
+    }
+
+}
+@media (min-width: 585px){
+    .logo{
+        width: 20%;
+    }
+}
+/* Movil */
+@media (max-width: 426px){
+    .logo{
+            width: 10%;
+    }
+    .icons{
+            width:130px;
+            margin-right: auto;
+    }     
+}
+@media (min-width: 425px){
+    a{
+        font-size: 12px;
+    }
+    .icons{
+        width:130px;
+    } 
+}
+@media (max-width: 376px){
+    .icons{
+        width:130px;
+        margin-right: auto;
+    }
+}

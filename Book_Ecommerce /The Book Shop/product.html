@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -9,22 +8,28 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
   <!-- CSS links -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
     crossorigin="anonymous">
+  <!-- Javascript links  -->
+   <script src="js/lib/jquery.js"></script>
   <!-- favicon -->
   <link rel="icon" type="image/png" href="img/thebs_logo.png" sizes="10x10" />
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,400,600i,700,900|Work+Sans:400,500,600,700,900" rel="stylesheet">
+ 
+  <!--  FontCSS -->
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat:200,300,300i,400,600,600i|Roboto:300i,400,500i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
   <title>THE BOOKSHOP</title>
 </head>
 <body>
   <!-- Start header  -->
   <!-- Navbar  -->
 <header>
-    <nav class="navbar navbar-expand-md  navbar-light bg-light navbar-light-color shadow-sm">
-        <img class="logo shadow-sm  bg-white rounded" src="img/thebs_logo.png" alt="">
+    <div class="d-sm-block">
+        <img class="logo-buy-page shadow-sm  bg-white rounded" src="img/thebs_logo.png" alt="">
+  </div>
+  <nav class="navbar  navbar-expand-md  navbar-light bg-light navbar-light-color shadow-sm">
       <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon icon-bar"></span>
@@ -32,6 +37,11 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <div class="content-div">
           <ul class="navbar-nav content-nav text-center">
+              <li class="nav-item active ml-5 ">
+                  <a class="nav-link text-white" href="index.html">Home
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
             <li class="nav-item ">
               <a class="nav-link dropdown-toggle  text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">
@@ -52,16 +62,11 @@
               </div>
             </li>
                 <li class="nav-item active ml-5 ">
-                    <a class="nav-link text-white" href="#">To Buy
+                    <a class="nav-link text-white" href="buy.html">To Buy
                       <span class="sr-only">(current)</span>
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white " href="#">New Releases</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">About Us</a>
-                  </li>        
+                 <li><img class="logo2 shadow-sm  bg-white rounded" src="css/img/thebs_logo.png" alt=""></li>
           </ul>
           </div>    
   <!-- icons -->
@@ -82,23 +87,32 @@
   </header>
   <!-- End header  -->
   <!-- Start main index content -->
-  <main>
-    <!-- Start Top slider  -->
-    
-  </main>
-  <!-- End Top slider  -->
+  <!-- Product image -->
+  <div class="container product-container">
+      <div class="row">
+            <div class="col-sm-4 ">
+                <img src="img/call_to_action/book-ejemplo3.jpg" alt="">
+               </div>
+               <div class="col-sm-8  align-self-center">
+                 <h3>Description</h3>
+                 <p>I Found My Tribe is an honest and heartfelt account of Ruth Fitzmaurice's life, caring for her husband who has Motor Neurone Disease and their five children, and the The Tragic Wives' Swimming Club that Ruth and her friends set up to help them cope with the challenges in their lives. In the extract below, Ruth details part of her day to day life.</p>
+                 <p>Price</p> 
+                 <button type="button" class="btn btn-dark mb-0">BUY </button>      
+                </div>
+        </div>
+</div>
   <!-- Footer -->
       <div class=" pre_footer text-center py-3">
           <strong class="ml-4 mr-2"> Follow Us: </strong>     
           <a href="">
-            <i class="fab fa-instagram mr-1"></i>
+            <i class="fab fa-instagram  icon-Prefooter mr-1"></i>
           </a>
           <a href="">
-            <i class="fab fa-facebook"></i>
+            <i class="fab fa-facebook icon-Prefooter "></i>
           </a>
           <strong class="ml-4 mr-2">  Contact: </strong> 
           <a href="">
-          <i class="far fa-envelope"></i> info@thebookshop.com
+          <i class="far fa-envelope icon-Prefooter"></i> info@thebookshop.com
         </a>
       </div>
 <!-- Social Media -->
