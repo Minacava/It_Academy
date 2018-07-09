@@ -41,6 +41,6 @@ console.log(a);
 
  // // // // FASE4
 var myFullName = [];
-myFullName.push (nombre  + " " +  apellido);
-  
+myFullName.push(...nombre,...apellido);
+
 console.log(myFullName);
