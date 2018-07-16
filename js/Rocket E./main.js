@@ -47,10 +47,39 @@ for (i=1; i < 3; i++){
    console.log(rocket2.acelerar());
 }
     rocket1.acelerar();
-    rocket1.velocidadActual();
     rocket2.acelerar();
-
+   
     var resultado1 = rocket1.propulsores.reduce(rocket1.velocidadActual);
     var resultado2 = rocket2.propulsores.reduce(rocket2.velocidadActual);
 
     document.write(`Velocidad actual Rocket1:  ${resultado1}  <br>  Velocidad actual Rocket2:  ${resultado2} ` );
+
+document.write('<br> Frenar coete 32WESSDS 5 veces y Acelerar coete LDSFJA32 7 veces <br>')
+
+for (i=1; i < 5; i++){
+  console.log(rocket1.frenar());
+}
+rocket1.frenar();
+
+for (i=1; i < 7; i++){
+  console.log(rocket2.acelerar());
+}
+rocket2.acelerar();
+
+var resultado1 = rocket1.propulsores.reduce(rocket1.velocidadActual);
+var resultado2 = rocket2.propulsores.reduce(rocket2.velocidadActual);
+
+document.write(`Velocidad actual Rocket1:  ${resultado1}  <br>  Velocidad actual Rocket2:  ${resultado2} ` );
+
+document.write('<br> Acelerando coetes 15 veces <br>')
+for (i=1; i < 15; i++){
+  console.log(rocket1.acelerar());
+  console.log(rocket2.acelerar());
+}
+rocket1.acelerar();
+rocket1.velocidadActual();
+
+var resultado1 = rocket1.propulsores.reduce(rocket1.velocidadActual);
+var resultado2 = rocket2.propulsores.reduce(rocket2.velocidadActual);
+
+document.write(`Velocidad actual Rocket1:  ${resultado1}  <br>  Velocidad actual Rocket2:  ${resultado2} ` );
