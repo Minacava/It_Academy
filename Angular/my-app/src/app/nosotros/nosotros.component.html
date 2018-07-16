@@ -1,0 +1,14 @@
+<div class="mt-5 container">
+  <h2>Nosotros</h2>
+  <p>t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let item of equipo, index as i" >
+      <h6> Nombre:  {{item.nombre}}</h6>
+      <h6> Especialidad:  {{item.especialidad}}</h6>
+      <a [routerLink] = "['/equipo', i]">Leer más...</a>
+    </li>
+   
+  </ul>
+   
+</div>

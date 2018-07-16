@@ -47,8 +47,10 @@ for (i=1; i < 3; i++){
    console.log(rocket2.acelerar());
 }
     rocket1.acelerar();
+    rocket1.velocidadActual();
     rocket2.acelerar();
-   
+    rocket2.velocidadActual();
+
     var resultado1 = rocket1.propulsores.reduce(rocket1.velocidadActual);
     var resultado2 = rocket2.propulsores.reduce(rocket2.velocidadActual);
 
@@ -60,11 +62,12 @@ for (i=1; i < 5; i++){
   console.log(rocket1.frenar());
 }
 rocket1.frenar();
-
+rocket1.velocidadActual();
 for (i=1; i < 7; i++){
   console.log(rocket2.acelerar());
 }
 rocket2.acelerar();
+rocket2.velocidadActual();
 
 var resultado1 = rocket1.propulsores.reduce(rocket1.velocidadActual);
 var resultado2 = rocket2.propulsores.reduce(rocket2.velocidadActual);
@@ -78,6 +81,8 @@ for (i=1; i < 15; i++){
 }
 rocket1.acelerar();
 rocket1.velocidadActual();
+rocket2.acelerar();
+rocket2.velocidadActual();
 
 var resultado1 = rocket1.propulsores.reduce(rocket1.velocidadActual);
 var resultado2 = rocket2.propulsores.reduce(rocket2.velocidadActual);
