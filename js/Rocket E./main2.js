@@ -5,13 +5,13 @@ class Rocket {
         this.propulsores = propulsores;
     }
     info(){
-        let propulsorMax = this.propulsores.map(function (propulsor) {
-            return propulsor.potenciaMaxima;
-          });
+        // let propulsorMax = this.propulsores.map(function (propulsor) {
+        //     return propulsor.potenciaMaxima;
+        //   });
         let velAct = this.propulsores.map(function (propulsor) {
             return propulsor.velocidadActual;
           });
-        document.write(`${this.identificador}:${propulsorMax}:  ${velAct} </br>`) 
+        document.write(`${this.identificador} : ${ velAct} </br>`) 
     }
     acelerar(){
         for(var i = 0; i < this.propulsores.length; i++){      
@@ -38,12 +38,16 @@ let rocket2 = new Rocket("LDSFJA32",[new Propulsor(30), new Propulsor(40), new P
 
 
 rocket1.info();
+rocket2.info();
+document.write("PRIMERO")
+
 for (i=0; i < 3; i++){
     rocket1.acelerar();
     rocket2.acelerar();
 }
     rocket1.info();
     rocket2.info();
+document.write("SEGUNDO ")
 
 for (i=0; i < 5; i++){
    rocket1.frenar();
@@ -53,10 +57,11 @@ for (i=0; i < 7; i++){
 }
     rocket1.info();
     rocket2.info();
+document.write("TERCERO")
 
 for (i=0; i < 15; i++){
     rocket1.acelerar();
-   rocket2.acelerar();
+    rocket2.acelerar();
 }
     rocket1.info();
     rocket2.info();
