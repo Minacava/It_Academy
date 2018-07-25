@@ -22,7 +22,7 @@ class Rocket {
     }
     frenar(){
         for(var i = 0; i < this.propulsores.length; i++){
-            if(this.propulsores[i].velocidadActual >0)
+            if(this.propulsores[i].velocidadActual > 0)
             this.propulsores[i].velocidadActual-=10;
         }
     }    
@@ -39,6 +39,7 @@ let rocket2 = new Rocket("LDSFJA32",[new Propulsor(30), new Propulsor(40), new P
 
 rocket1.info();
 rocket2.info();
+
 document.write("PRIMERO")
 
 for (i=0; i < 3; i++){
@@ -47,6 +48,7 @@ for (i=0; i < 3; i++){
 }
     rocket1.info();
     rocket2.info();
+
 document.write("SEGUNDO ")
 
 for (i=0; i < 5; i++){
@@ -57,6 +59,7 @@ for (i=0; i < 7; i++){
 }
     rocket1.info();
     rocket2.info();
+    
 document.write("TERCERO")
 
 for (i=0; i < 15; i++){
