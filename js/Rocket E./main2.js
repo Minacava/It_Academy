@@ -10,13 +10,11 @@ class Rocket {
 
     }
     info(){
-        // let propulsorMax = this.propulsores.map(function (propulsor) {
-        //     return propulsor.potenciaMaxima;
-        //   });
         let velAct = this.propulsores.map(function (propulsor) {
             return propulsor.velocidadActual;
           });
-       
+    
+       return "Rocket ID:" + " " + this.identificador + " " + " booster max power" + " " + velAct;
     }
 
     acelerar(){
@@ -25,6 +23,7 @@ class Rocket {
                 this.propulsores[i].velocidadActual+=10;
             }
         }
+        return this.info();
     }
 
     frenar(){
@@ -33,8 +32,8 @@ class Rocket {
             this.propulsores[i].velocidadActual-=10;
           }
         }
+        return this.info();
     }
-
 }
 
 
@@ -47,47 +46,76 @@ class Propulsor {
 
 
 
+
+
+
 let rocket1 = new Rocket("32WESSDS",[10, 30, 80]);
 let rocket2 = new Rocket("32WESSDS",[ 30, 40, 50, 50, 30, 10]);
 
+function Show_info_rocket1() {   
+  let a = document.getElementById("ShowInfo")
+  a.innerHTML = rocket1.info();
+  console.log("Show1");
 
-function Show_info_rocket1() {
-  let one = document.getElementById("ShowInfo")
-  one.innerHTML = rocket1.info();
- 
 }
+
+
 
 function Show_info_rocket2() {
-  let two =  document.getElementById("ShowInfo")
-  two.innerHTML = rocket2.info();
+  let b =  document.getElementById("ShowInfo2")
+  b.innerHTML = rocket2.info();
+  console.log("Show2");
 
 }
 
 
-for (i=0; i < 3; i++){
-    rocket1.acelerar();
-    rocket2.acelerar();
+
+function acelerate_info_rocket1() {
+     let c =  document.getElementById("ShowInfo")
+     c.innerHTML = rocket1.acelerar();
+     console.log("acelerate1");
 }
-    rocket1.info();
-    rocket2.info();
+function acelerate_info_rocket2() {
+     let d =  document.getElementById("ShowInfo2")
+     d.innerHTML = rocket2.acelerar();
+     console.log("acelerate2");
+}
+
+function break_info_rocket1() {
+     let e =  document.getElementById("ShowInfo")
+     e.innerHTML = rocket2.frenar();
+     console.log("frenar1");
+}
+function break_info_rocket2() {
+     let f =  document.getElementById("ShowInfo2")
+     f.innerHTML = rocket2.frenar();
+      console.log("frenar2");
+}
+
+// for (i=0; i < 3; i++){
+//     rocket1.acelerar();
+//     rocket2.acelerar();
+// }
+//    console.log(rocket1.info());
+//     rocket2.info();
 
 
-for (i=0; i < 5; i++){
-   rocket1.frenar();
-}
-for (i=0; i < 7; i++){
-    rocket2.acelerar();
-}
-    rocket1.info();
-    rocket2.info();
+// for (i=0; i < 5; i++){
+//    rocket1.frenar();
+// }
+// for (i=0; i < 7; i++){
+//     rocket2.acelerar();
+// }
+//     rocket1.info();
+//     rocket2.info();
 
 
-for (i=0; i < 15; i++){
-    rocket1.acelerar();
-    rocket2.acelerar();
-}
-    rocket1.info();
-    rocket2.info();
+// for (i=0; i < 15; i++){
+//     rocket1.acelerar();
+//     rocket2.acelerar();
+// }
+//     rocket1.info();
+//     rocket2.info();
 
 
 
