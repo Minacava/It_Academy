@@ -2,6 +2,8 @@
 body{
     font-family: 'Share Tech Mono', monospace;
     background-image: url("rocket.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
