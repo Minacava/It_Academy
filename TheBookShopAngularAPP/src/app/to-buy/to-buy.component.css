@@ -1,0 +1,21 @@
+.filter{
+    margin-top:3%;
+    font-size: 1em;
+    font-family: 'Karla', sans-serif;
+    color: #FBD160;
+}
+.filter-links{
+    list-style:none;
+}
+.filter-links li a{
+    color:black;
+}
+.filter-links li a:hover{
+    color:#4285f4;
+}
+a:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}

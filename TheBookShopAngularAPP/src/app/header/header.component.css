@@ -1,0 +1,136 @@
+
+/* header */
+.navbar{
+    background-color: #0d47a1 !important;
+    font-family: 'Karla', sans-serif;
+    margin-bottom: .25rem !important;
+    padding: 0!important;
+}
+a:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}
+.dropdown .dropdown-menu .dropdown-item:hover{
+    color: #fff !important;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+   box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+   background-color: #4285f4;
+   color: #fff !important;
+   -webkit-border-radius: .125rem;
+   border-radius: .125rem;
+   -webkit-transition: all .1s linear;
+   -o-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+.content-div{
+    position: relative;
+}
+.logo{
+    width: 3%;
+    height: auto;
+    float: left;
+    padding-right: 2%;
+}
+.logo2{
+    width: 20%;
+    height: auto;
+    float: left;
+    padding-right: 2%;
+}
+.logo-img{
+    width: 100%;
+    background-color: white;
+    margin:1%;
+    height: auto;
+}
+.content-nav{
+    font-size: 1.5em;
+    left: 60%;
+    
+}
+.navbar-toggler {
+    float: right;
+}
+.nav-item {
+    margin-left: 3em;
+    list-style:none;
+}
+.icons{
+    margin-left: auto;
+
+}
+.icon-bar{
+    border-radius:0.3em;
+    margin-left: 0.5em;
+}
+.icon-Header{
+    color:white;
+    font-size: 1em;
+    list-style:none;
+}
+
+.icon-Header-li{
+    padding-right:2%;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+    border:none;
+}
+.nav-center{
+    display: inline;
+}
+.dropdown-item{
+    font-size:0.8em;
+}
+.navbar .dropdown-menu {
+    position: absolute !important;
+    margin-top: 0;
+}
+.dropdown-menu{
+  font-size: 1rem;
+  color: #212529!important;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+  margin-left: 57%;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 0.6em;
+    text-transform: uppercase;
+}
+.Login{
+    color:white;
+    font-size: 0.9em;
+    font-family: 'Gloria Hallelujah', cursive;
+    display: inline;
+}
+ /* Btn-toggle */
+.animatedBtn {
+    -webkit-transform: rotate(0deg); transform: rotate(0deg);
+      -webkit-transition: 0.2s ease; transition: 0.2s ease;
+  }
+.animatedBtn:hover {
+      -webkit-transform: rotate(90deg); transform: rotate(90deg);
+  }
+/* Shoping Cart */
+
+/* searchFrom */
+.navbar.navbar-light form .md-form input {
+    border-bottom: 1px solid #f5f2f2;
+}
+.navbar.navbar-light form .md-form .form-control {
+    color: #f5f2f2;
+}
+.form-inline {
+    padding-top: 0.1px;
+}
+::placeholder{
+    color: #f5f2f2!important;
+}
+/* Responsive */
+
