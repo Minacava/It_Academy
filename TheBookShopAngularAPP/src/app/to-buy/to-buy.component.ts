@@ -20,7 +20,7 @@ export class ToBuyComponent implements OnInit {
     this._petitionsService.getBook().subscribe(
         result => {
           console.log(result.title);
-          console.log(result.description);
+          console.log(result.description  );
         },
         error => {
           console.log(<any>error);
